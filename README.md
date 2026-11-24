@@ -1,5 +1,7 @@
 # qb-adminjail – Admin-Jail mit NPC-Abholung
 
+Autor: Robertbox28 · [robertbox28.ch](https://robertbox28.ch/) · Für Culture City
+
 Bei kleinen Regelverstössen schickt ein Admin den Spieler per Befehl ins Admin-Jail.
 Ein NPC-Polizist fährt mit Blaulicht zum Spieler, legt ihm Handschellen an, setzt ihn
 hinten in den Streifenwagen und fährt ihn ins Jail. Die Zeit läuft erst ab der Ankunft.

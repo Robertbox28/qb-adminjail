@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-author 'Culture City'
+author 'Robertbox28 (https://robertbox28.ch/) – für Culture City'
 description 'Admin-Jail mit NPC-Abholung für QBCore'
 version '1.0.0'
 
