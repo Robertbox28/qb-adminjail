@@ -6,6 +6,16 @@ Bei kleinen Regelverstössen schickt ein Admin den Spieler per Befehl ins Admin-
 Ein NPC-Polizist fährt mit Blaulicht zum Spieler, legt ihm Handschellen an, setzt ihn
 hinten in den Streifenwagen und fährt ihn ins Jail. Die Zeit läuft erst ab der Ankunft.
 
+## Vorschau
+
+Die Bilder stammen aus der Anleitung (`anleitung.html`).
+
+![Überblick: Admin-Jail für kleine Regelverstösse und Abschiebung für Banns](docs/vorschau/ueberblick.jpg)
+
+| Ablauf Admin-Jail | Ablauf Abschiebung |
+|---|---|
+| ![Ablauf Admin-Jail in 8 Schritten](docs/vorschau/ablauf-jail.jpg) | ![Ablauf Abschiebung in 7 Schritten](docs/vorschau/ablauf-abschiebung.jpg) |
+
 ## Installation
 1. Ordner `qb-adminjail` in `resources/[qb]` (oder eigenen Ordner) kopieren.
 2. In der `server.cfg` **nach** qb-core eintragen: `ensure qb-adminjail`
