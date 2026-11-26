@@ -59,9 +59,12 @@ Config.Transport = {
     PlayerSeat   = 2,                -- 1 = hinten links, 2 = hinten rechts
     Dropoff      = vector3(1855.0, 2590.0, 45.67), -- Ziel der Fahrt (Gefängnistor)
 
-    ApproachSpeed   = 20.0,          -- m/s auf dem Weg zum Spieler
-    DriveSpeed      = 30.0,          -- m/s auf dem Weg ins Jail
-    DrivingStyle    = 786603,        -- normaler Fahrstil, hält sich an Strassen
+    ApproachSpeed   = 35.0,          -- m/s auf dem Weg zum Spieler (35 ≈ 126 km/h, vorher 20)
+    DriveSpeed      = 50.0,          -- m/s auf dem Weg ins Jail (50 ≈ 180 km/h, vorher 30)
+    -- Fahrstil: 1074528293 = Einsatzfahrt (überholt, fährt um Autos herum, ignoriert Ampeln)
+    --           786603     = normal (hält an Ampeln, langsamer)
+    DrivingStyle    = 1074528293,
+    Aggressiveness  = 1.0,           -- 0.0 = vorsichtig, 1.0 = sehr zügig
 
     MinSpawnDistance = 50.0,         -- Abstand, in dem der Streifenwagen erscheint
     MaxSpawnDistance = 160.0,

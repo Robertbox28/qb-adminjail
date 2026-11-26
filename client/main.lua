@@ -286,7 +286,7 @@ local function DoTransport(mode)
     SetEntityInvincible(driver, true)
     SetPedCanBeDraggedOut(driver, false)
     SetDriverAbility(driver, 1.0)
-    SetDriverAggressiveness(driver, 0.0)
+    SetDriverAggressiveness(driver, TC.Aggressiveness or 1.0)
 
     spawned.blip = AddBlipForEntity(veh)
     SetBlipSprite(spawned.blip, 56)
